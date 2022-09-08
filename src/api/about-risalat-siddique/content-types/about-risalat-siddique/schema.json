@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_risalat_siddiques",
+  "info": {
+    "singularName": "about-risalat-siddique",
+    "pluralName": "about-risalat-siddiques",
+    "displayName": "About Risalat Siddique",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "richtext"
+    }
+  }
+}

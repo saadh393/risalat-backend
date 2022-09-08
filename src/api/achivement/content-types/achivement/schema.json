@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "achivements",
+  "info": {
+    "singularName": "achivement",
+    "pluralName": "achivements",
+    "displayName": "Achivement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "award_type": {
+      "type": "enumeration",
+      "enum": [
+        "Gold",
+        "Silver"
+      ]
+    }
+  }
+}
