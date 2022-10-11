@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos_and_appearances",
+  "info": {
+    "singularName": "video-and-appearance",
+    "pluralName": "videos-and-appearances",
+    "displayName": "Videos and Appearances",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "required": false,
+      "default": "#"
+    },
+    "author": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Video",
+        "Article"
+      ],
+      "default": "Article",
+      "required": true
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}
