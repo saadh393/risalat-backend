@@ -21,4 +21,8 @@ jobs:
           cd /var/www/html/analyzen/risalatsiddique.com/api/
           echo "Pulling latest commit"
           git pull origin main
+          echo "Install packages"
+          npm install
+          echo "Building app"
+          npm run build
           echo "Deployment is successfull!"
