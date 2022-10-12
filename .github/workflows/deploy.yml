@@ -25,4 +25,6 @@ jobs:
           npm install
           echo "Building app"
           npm run build
+          echo "Restarting Service"
+          sudo systemctl restart ris-api
           echo "Deployment is successfull!"
